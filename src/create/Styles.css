@@ -1,0 +1,43 @@
+.root {
+
+    font-family: 'Saira', sans-serif;
+}
+.splitHorizontal {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.splitVertical {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.leftSide {
+
+   
+    width: 30%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.rightSide {
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerBox{
+
+    text-align: center;
+}
+
+.spacing {
+
+    line-height: 3.0;
+}
